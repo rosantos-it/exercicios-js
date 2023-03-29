@@ -1,31 +1,36 @@
-.slider {
-    margin: 0 auto;
-    width: 0 auto;
-    height: 0 auto;
-}
-
-.slides {
-    width: 0 auto;
-    height: 0 auto;
+.topBar {
     display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
+    justify-content: center;
+    background-color: #F09C75;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.slide-first img {
-    width: 1900px;
-    height: 800px;
+.containerLogo {
+    display: flex;
+    justify-content: center;
 }
 
-.slide-second img {
-    width: 1900px;
-    height: 800px;
+div > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
 }
 
-.slide-third img {
-    width: 1900px;
-    height: 800px;
+.navList {
+    display: flex;
+    justify-content: center;
 }
+
+.search, .login, .cart {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+
 
 
 
